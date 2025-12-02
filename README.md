@@ -4,7 +4,7 @@ BBR v3 is currently unavailable
 
 # Seedbox Installation Script
 ## Usage
-`bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/main/Install.sh) -u <username> -p <password> -c <Cache Size(unit:MiB)> -q <qBittorrent Version> -l <libtorrent Version> -b -v -r -3 -x -o`
+`bash <(wget -qO- https://raw.githubusercontent.com/xmicly2/Dedicated-Seedbox/main/Install.sh) -u <username> -p <password> -c <Cache Size(unit:MiB)> -q <qBittorrent Version> -l <libtorrent Version> -b -v -r -3 -x -o`
 #### Options
 	1. -u: username 
 	2. -p: password
@@ -18,7 +18,7 @@ BBR v3 is currently unavailable
 	10.-x: Enable BBRx
 	11. Customize ports
 #### Example
-`bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/main/Install.sh) -u jerry048 -p 1LDw39VOgors -c 3072 -q 4.3.9 -l v1.2.19 -b -r -x`
+`bash <(wget -qO- https://raw.githubusercontent.com/xmicly2/Dedicated-Seedbox/main/Install.sh) -u jerry048 -p 1LDw39VOgors -c 3072 -q 4.3.9 -l v1.2.19 -b -r -x`
 
 ##### Explanation
 	1. username is jerry048
@@ -87,3 +87,4 @@ Deluge Password Set - https://github.com/amefs/quickbox-lite
 autoremove-torrents - https://github.com/jerrymakesjelly/autoremove-torrents
 
 BBR Install - https://github.com/KozakaiAya/TCP_BBR
+
