@@ -1,7 +1,7 @@
 
 # Seedbox Installation Script
 ## 用法
-`bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/main/Install.sh) -u <用戶名稱> -p <密碼> -c <緩存大小(單位:MiB)> -q <qBittorrent 版本> -l <libtorrent 版本> -b -v -r -3 -x -o`
+`bash <(wget -qO- https://raw.githubusercontent.com/xmicly2/Dedicated-Seedbox/main/Install.sh) -u <用戶名稱> -p <密碼> -c <緩存大小(單位:MiB)> -q <qBittorrent 版本> -l <libtorrent 版本> -b -v -r -3 -x -o`
 #### Options
 	1. -u: 用戶名稱
 	2. -p: 密碼
@@ -15,7 +15,7 @@
 	10.-x: 啓動 BBRx
 	11.-o: 自定義端口
 #### 範例
-`bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/main/Install.sh) -u jerry048 -p 1LDw39VOgors -c 3072 -q 4.3.9 -l v1.2.19 -v -x`
+`bash <(wget -qO- https://raw.githubusercontent.com/xmicly2/Dedicated-Seedbox/main/Install.sh) -u jerry048 -p 1LDw39VOgors -c 3072 -q 4.3.9 -l v1.2.19 -v -x`
 
 ##### 解釋
 	1. 用戶名稱 是 jerry048
